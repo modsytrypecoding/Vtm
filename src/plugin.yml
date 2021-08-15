@@ -1,0 +1,40 @@
+name: Volk-Tutorial
+version: 1.0
+main: de.modstrype.VolkTutorial.Main.Main
+api-version: 1.16
+
+commands:
+   sendText:
+      description: 
+   sendCorrect1:
+      description:
+   sendCorrect2:
+      description:
+   sendCorrect3:
+      description:
+   addFalse:
+      description:
+   addComplete:
+      description:
+   tpx:
+      description:
+   setRulePoint:
+      description:
+   vtm:
+      description: Voelker-Tutorial-Mentor Plugin!
+   mentor:
+      description: Mentor!
+   offerHelp:
+      description:
+   isHelped:
+      description:
+   declineHelp:
+      description:
+   freischalten:
+      description:
+   mchat:
+      description:
+   rate:
+      description:
+   sendTextNo:
+      description:
