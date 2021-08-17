@@ -11,7 +11,6 @@ import java.util.List;
 public class VtmApi extends JavaPlugin {
     public static class RealApi {
         public String getPlayerVolk(Player p) {
-            Bukkit.getConsoleSender().sendMessage(p.getName());
             if(!unserializeArrayList(PlayersInList()).contains(p.getName())) {
                 return null;
             }
@@ -34,10 +33,7 @@ public class VtmApi extends JavaPlugin {
             storage.add(Main.getconfig().getStringList("settings.Volk." + Main.getconfig().getStringList("settings.Items.GUI_Item_3").get(0)));
             storage.add(Main.getconfig().getStringList("settings.Volk." + Main.getconfig().getStringList("settings.Items.GUI_Item_4").get(0)));
 
-            Bukkit.getConsoleSender().sendMessage(storage.toString());
             return storage;
-
-
         }
 
         public ArrayList<ArrayList<String>> PlayerInVolk(String Volk) {
@@ -58,7 +54,4 @@ public class VtmApi extends JavaPlugin {
         }
         return result;
     }
-
-
-
 }
